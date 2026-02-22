@@ -1,0 +1,5 @@
+res://default_env.tres
+res://Scenes/Node2D.tscn
+res://Scenes/Exit.cs
+res://assets/scripts/WelcomeScript.cs
+res://assets/scripts/WDw.cs

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "a3IT/xXljMg=",
+  "success": true,
+  "projectFilePath": "/home/ilya/C# GAME/C# Game.csproj",
+  "expectedPackageFiles": [
+    "/home/ilya/.nuget/packages/godot.sourcegenerators/4.6.0/godot.sourcegenerators.4.6.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/godotsharp/4.6.0/godotsharp.4.6.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/godotsharpeditor/4.6.0/godotsharpeditor.4.6.0.nupkg.sha512",
+    "/home/ilya/.nuget/packages/microsoft.netcore.app.ref/8.0.24/microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "/home/ilya/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.24/microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

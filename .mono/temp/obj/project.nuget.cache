@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pzgzbqU/uNw=",
+  "success": true,
+  "projectFilePath": "/home/ilya/C# GAME/C# Game.csproj",
+  "expectedPackageFiles": [
+    "/home/ilya/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/ilya/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+res://default_env.tres::1771516955::7b5070072f66b9b6b76ee4a282147f95::Environment,Sky,::
+res://export_presets.cfg::1771517500::a1c5445426a8a0c077f149f395623e70::::
+res://icon.png::1771405738::f44e2c98b7e108ea1f0997822c2b8b09::CompressedTexture2D::
+res://assets/images/player.png::1771511427::46e0cde03db4220103b66fc12ec4b094::CompressedTexture2D::
+res://assets/scripts/WDw.cs::1771516742::48b62c6aac7e974304a472a99d24474b::CSharpScript::
+res://assets/scripts/WelcomeScript.cs::1771516756::43b7f88ffcb5e2c20741c570ee7be35c::CSharpScript::
+res://builds/data_C# Game_linuxbsd_x86_64/C# Game.deps.json::1771517499::b20f14bf8ed69cf0bb8e886c5bda0ba9::JSON::
+res://Scenes/Node2D.tscn::1771516954::4274c427db6dad836c1afd8a30e2705f::PackedScene,Node2D,AspectRatioContainer,Label,Button::

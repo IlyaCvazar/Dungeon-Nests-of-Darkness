@@ -1,0 +1,13 @@
+72322a848ab928aa5c89f0cb78209805
+::res://::1771759664
+default_env.tres::Environment::1510617856148957778::1771759664::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1771517585::0::1::::<><><>0<>0<><>::
+icon.png::CompressedTexture2D::8405393952589275816::1771759634::1771759720::1::::<><><>0<>0<>f44e2c98b7e108ea1f0997822c2b8b09<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+::res://assets/::1771408266
+::res://assets/images/::1771759661
+icon.png::CompressedTexture2D::6929148652271473400::1771759634::1771759661::1::::<><><>0<>0<>e4fbee1659881d7ef9c7bfca209c7a2d<>res://.godot/imported/icon.png-e2b956fc1cad352d3b1bbca4fcd64fa9.ctex::
+::res://assets/scripts/::1771519609
+WDw.cs::CSharpScript::8598178703024076775::1771519609::0::1::::<>Button<><>0<>0<><>::
+WelcomeScript.cs::CSharpScript::6050918854277887796::1771519297::0::1::::<>Label<><>0<>0<><>::
+::res://Scenes/::1771749832
+Node2D.tscn::PackedScene::7247425598439330268::1771749832::0::1::::<><><>0<>0<><>::uid://dura0nth8m3ol::::res://assets/scripts/WDw.cs<>uid://cshd0qnsvun5u::::res://assets/scripts/WelcomeScript.cs

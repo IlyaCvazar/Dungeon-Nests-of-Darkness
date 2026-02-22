@@ -1,0 +1,9 @@
+/home/ilya/C# GAME/.mono/temp/bin/Debug/C# Game.dll
+/home/ilya/C# GAME/.mono/temp/bin/Debug/C# Game.pdb
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.csproj.AssemblyReference.cache
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.AssemblyInfoInputs.cache
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.AssemblyInfo.cs
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.csproj.CoreCompileInputs.cache
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.dll
+/home/ilya/C# GAME/.mono/temp/obj/Debug/C# Game.pdb
