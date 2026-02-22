@@ -10,6 +10,10 @@ public partial class WDw : Button
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+<<<<<<< HEAD
+=======
+		GD.Print("Hi ready");
+>>>>>>> 53edea4439b1abb81a030248707ba89bf6ddc02b
 	}
 	
 	private void _on_pressed()

@@ -2,7 +2,10 @@
 
 [ext_resource type="Script" uid="uid://dura0nth8m3ol" path="res://assets/scripts/WDw.cs" id="1"]
 [ext_resource type="Script" uid="uid://cshd0qnsvun5u" path="res://assets/scripts/WelcomeScript.cs" id="1_m8v7j"]
+<<<<<<< HEAD
 [ext_resource type="Script" uid="uid://bwqy5f2w8axwt" path="res://Scenes/Exit.cs" id="3_hvc4d"]
+=======
+>>>>>>> 53edea4439b1abb81a030248707ba89bf6ddc02b
 
 [node name="Node2D" type="Node2D" unique_id=1849803510]
 
@@ -34,20 +37,31 @@ size_flags_vertical = 6
 text = "START"
 script = ExtResource("1")
 
+<<<<<<< HEAD
 [node name="settings" type="Button" parent="VBoxContainer" unique_id=2144535915]
+=======
+[node name="Button" type="Button" parent="VBoxContainer" unique_id=2144535915]
+>>>>>>> 53edea4439b1abb81a030248707ba89bf6ddc02b
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "SETTINGS"
 
+<<<<<<< HEAD
 [node name="exit" type="Button" parent="VBoxContainer" unique_id=2021808909]
+=======
+[node name="Button2" type="Button" parent="VBoxContainer" unique_id=2021808909]
+>>>>>>> 53edea4439b1abb81a030248707ba89bf6ddc02b
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "EXIT"
+<<<<<<< HEAD
 script = ExtResource("3_hvc4d")
+=======
+>>>>>>> 53edea4439b1abb81a030248707ba89bf6ddc02b
 
 [node name="Timer" type="Timer" parent="." unique_id=973122588]
 wait_time = 0.06
@@ -55,5 +69,8 @@ autostart = true
 
 [connection signal="mouse_entered" from="VBoxContainer/Label" to="VBoxContainer/Label" method="_on_mouse_entered"]
 [connection signal="pressed" from="VBoxContainer/start" to="VBoxContainer/start" method="_on_pressed"]
+<<<<<<< HEAD
 [connection signal="pressed" from="VBoxContainer/exit" to="VBoxContainer/exit" method="_on_exit_pressed"]
+=======
+>>>>>>> 53edea4439b1abb81a030248707ba89bf6ddc02b
 [connection signal="timeout" from="Timer" to="VBoxContainer/Label" method="_on_timer_timeout"]
