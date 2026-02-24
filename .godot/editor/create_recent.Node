@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 Timer
 RichTextLabel
 Label
 Button
 VBoxContainer
 AspectRatioContainer
+=======
+Button
+Timer
+VBoxContainer
+AspectRatioContainer
+Label
+>>>>>>> refs/remotes/origin/main

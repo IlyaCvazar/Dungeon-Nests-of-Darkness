@@ -10,4 +10,7 @@
 /home/ilya/C# GAME/.godot/mono/temp/obj/Debug/refint/C# Game.dll
 /home/ilya/C# GAME/.godot/mono/temp/obj/Debug/C# Game.pdb
 /home/ilya/C# GAME/.godot/mono/temp/obj/Debug/ref/C# Game.dll
+<<<<<<< HEAD
 /home/ilya/C# GAME/.godot/mono/temp/obj/Debug/C# Game.sourcelink.json
+=======
+>>>>>>> refs/remotes/origin/main
