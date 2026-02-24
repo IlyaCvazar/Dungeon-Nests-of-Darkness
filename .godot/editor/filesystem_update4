@@ -1,0 +1,4 @@
+res://default_env.tres
+res://Scenes/MainMenu.tscn
+res://assets/scripts/ExitButtonScript.cs
+res://assets/scripts/WelcomeScript.cs

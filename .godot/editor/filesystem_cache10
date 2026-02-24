@@ -1,0 +1,14 @@
+72322a848ab928aa5c89f0cb78209805
+::res://::1771925261
+default_env.tres::Environment::1510617856148957778::1771925178::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1771761211::0::1::::<><><>0<>0<><>::
+icon.png::CompressedTexture2D::8405393952589275816::1771761210::1771922661::1::::<><><>0<>0<>f44e2c98b7e108ea1f0997822c2b8b09<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
+README.md::TextFile::-1::1771760992::0::1::::<><><>0<>0<><>::
+::res://assets/::1771408266
+::res://assets/images/::1771922723
+player.png::CompressedTexture2D::491526367893398332::1771922721::1771922723::1::::<><><>0<>0<>a2f4f224aebfda0662fb869f2bec0d1b<>res://.godot/imported/player.png-ec09cb0aaea6691df1670eb512b00cb9.ctex::
+::res://assets/scripts/::1771924550
+ExitButtonScript.cs::CSharpScript::3812743320036933348::1771923054::0::1::::<><><>0<>0<><>::
+WelcomeScript.cs::CSharpScript::6050918854277887796::1771925176::0::1::::<>RichTextLabel<><>0<>0<><>::
+::res://Scenes/::1771924550
+MainMenu.tscn::PackedScene::8916508050975316098::1771924550::0::1::::<><><>0<>0<><>::uid://cshd0qnsvun5u::::res://assets/scripts/WelcomeScript.cs<>uid://buk6lcg12yam3::::res://assets/scripts/ExitButtonScript.cs

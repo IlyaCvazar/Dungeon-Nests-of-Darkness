@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ilya/C# GAME/C# Game.csproj": {}
+  },
+  "projects": {
+    "/home/ilya/C# GAME/C# Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ilya/C# GAME/C# Game.csproj",
+        "projectName": "C# Game",
+        "projectPath": "/home/ilya/C# GAME/C# Game.csproj",
+        "packagesPath": "/home/ilya/.nuget/packages/",
+        "outputPath": "/home/ilya/C# GAME/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ilya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

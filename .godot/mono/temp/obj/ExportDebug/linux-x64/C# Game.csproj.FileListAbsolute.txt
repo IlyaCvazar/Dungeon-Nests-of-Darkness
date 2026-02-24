@@ -1,0 +1,10 @@
+/home/ilya/C# GAME/.godot/mono/temp/bin/ExportDebug/linux-x64/C# Game.deps.json
+/home/ilya/C# GAME/.godot/mono/temp/bin/ExportDebug/linux-x64/C# Game.dll
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/C# Game.csproj.AssemblyReference.cache
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/C# Game.GeneratedMSBuildEditorConfig.editorconfig
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/C# Game.AssemblyInfoInputs.cache
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/C# Game.AssemblyInfo.cs
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/C# Game.csproj.CoreCompileInputs.cache
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/C# Game.dll
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/refint/C# Game.dll
+/home/ilya/C# GAME/.godot/mono/temp/obj/ExportDebug/linux-x64/ref/C# Game.dll
