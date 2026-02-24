@@ -28,16 +28,20 @@ alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer" unique_id=1973270850]
-custom_minimum_size = Vector2(300, 0)
+custom_minimum_size = Vector2(300, 40)
 layout_direction = 1
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 0
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_y = 12
 bbcode_enabled = true
-text = "Dungeon-Nests-of -Darkness"
+text = "Dungeon-Nests-of -Darknes"
 fit_content = true
 scroll_active = false
-visible_characters_behavior = 3
 script = ExtResource("1_853f1")
 
 [node name="StartButton" type="Button" parent="VBoxContainer" unique_id=1214352287]

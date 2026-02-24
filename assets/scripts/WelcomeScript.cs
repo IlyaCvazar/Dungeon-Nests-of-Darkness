@@ -12,10 +12,15 @@ public partial class WelcomeScript : RichTextLabel
 	}
 	private void _on_mouse_entered()
 	{
-		VisibleCharacters = 0;
-		GD.Print("Time out " + GetTotalCharacterCount());
-		Timer timer = GetNode<Timer>($"../Timer");
-		timer.Start();
+		if (VisibleCharacters == GetTotalCharacterCount())
+			{
+			VisibleCharacters = 0;
+			Timer timer = GetNode<Timer>($"../Timer");
+			timer.Start();
+			}
+		GD.Print("Total " + GetTotalCharacterCount());
+		GD.Print("Total  chsr " + VisibleCharacters);
+		
 	}
 	
 	private void _on_timer_timeout()
@@ -33,11 +38,7 @@ public partial class WelcomeScript : RichTextLabel
 		}
 	}
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-		//for (int i = 0; i < 11; i++){
-			//VisibleRatio = (i / 10.0f);
-		//}
-
-	}
+	//public override void _Process(double delta)
+	//{
+	//}
 }
