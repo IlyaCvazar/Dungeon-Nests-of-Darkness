@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cjevusid5v7to"]
 
 [ext_resource type="Texture2D" uid="uid://dr0vu0tok6qj5" path="res://icon.png" id="1_1ej6j"]
+[ext_resource type="Texture2D" uid="uid://c5yscih1fu8ae" path="res://assets/images/icon.png" id="2_bj1kf"]
 
 [node name="Control" type="Control" unique_id=2009107355]
 custom_minimum_size = Vector2(300, 300)
@@ -29,6 +30,8 @@ offset_right = 127.0
 offset_bottom = 257.0
 localize_numeral_system = false
 texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
 
 [node name="TextureButton2" type="TextureButton" parent="Panel" unique_id=1819021290]
 layout_mode = 0
@@ -38,6 +41,8 @@ offset_right = 128.0
 offset_bottom = 129.0
 localize_numeral_system = false
 texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
 
 [node name="TextureButton3" type="TextureButton" parent="Panel" unique_id=1231038576]
 layout_mode = 0
@@ -47,6 +52,8 @@ offset_right = 256.0
 offset_bottom = 129.0
 localize_numeral_system = false
 texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
 
 [node name="TextureButton4" type="TextureButton" parent="Panel" unique_id=1526637642]
 layout_mode = 0
@@ -56,6 +63,8 @@ offset_right = 256.0
 offset_bottom = 257.0
 localize_numeral_system = false
 texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
 
 [node name="Label" type="Label" parent="Panel" unique_id=1751635078]
 layout_mode = 1
