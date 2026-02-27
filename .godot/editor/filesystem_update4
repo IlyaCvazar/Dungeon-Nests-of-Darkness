@@ -1,4 +1,2 @@
 res://default_env.tres
-res://Scenes/MainMenu.tscn
-res://assets/scripts/WelcomeScript.cs
-res://assets/scripts/ExitButtonScript.cs
+res://Scenes/UpgradePanel.tscn
