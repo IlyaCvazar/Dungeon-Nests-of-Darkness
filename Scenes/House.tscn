@@ -1,0 +1,78 @@
+[gd_scene format=3 uid="uid://cxgyadbppnyqj"]
+
+[ext_resource type="Script" uid="uid://3n2rtuo2ms8g" path="res://assets/scripts/House.cs" id="1_8od7v"]
+[ext_resource type="Texture2D" uid="uid://op1ax77cka2k" path="res://Materials/7.png" id="2_ftrsn"]
+[ext_resource type="PackedScene" uid="uid://bh7cg3q1tlko4" path="res://Bullet.tscn" id="2_q8l06"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vdgdd"]
+size = Vector2(52, 93)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q8l06"]
+atlas = ExtResource("2_ftrsn")
+region = Rect2(0, 0, 70, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c8aik"]
+atlas = ExtResource("2_ftrsn")
+region = Rect2(70, 0, 70, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cpag2"]
+atlas = ExtResource("2_ftrsn")
+region = Rect2(140, 0, 70, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jda31"]
+atlas = ExtResource("2_ftrsn")
+region = Rect2(210, 0, 70, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2u2x3"]
+atlas = ExtResource("2_ftrsn")
+region = Rect2(280, 0, 70, 130)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gfhlv"]
+atlas = ExtResource("2_ftrsn")
+region = Rect2(350, 0, 70, 130)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ppwsj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q8l06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c8aik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cpag2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jda31")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2u2x3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gfhlv")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}]
+
+[node name="House" type="Area2D" unique_id=1055782918]
+scale = Vector2(3, 3)
+script = ExtResource("1_8od7v")
+BulletScene = ExtResource("2_q8l06")
+ShootRange = 1000.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1925405261]
+position = Vector2(0, -52.5)
+shape = SubResource("RectangleShape2D_vdgdd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CollisionShape2D" unique_id=1024442895]
+position = Vector2(0, -12.5)
+sprite_frames = SubResource("SpriteFrames_ppwsj")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.0222428
+
+[node name="ShootPoint" type="Marker2D" parent="." unique_id=1735383192]
+position = Vector2(21, -75.66667)

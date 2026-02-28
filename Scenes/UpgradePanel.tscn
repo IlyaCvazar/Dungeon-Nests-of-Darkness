@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://cjevusid5v7to"]
+
+[ext_resource type="Texture2D" uid="uid://dr0vu0tok6qj5" path="res://icon.png" id="1_1ej6j"]
+[ext_resource type="Texture2D" uid="uid://c5yscih1fu8ae" path="res://assets/images/icon.png" id="2_bj1kf"]
+
+[node name="Control" type="Control" unique_id=2009107355]
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -1.0
+offset_right = -852.0
+offset_bottom = -349.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=855074961]
+clip_contents = true
+custom_minimum_size = Vector2(300, 300)
+layout_mode = 0
+offset_right = 320.0
+offset_bottom = 300.0
+
+[node name="TextureButton" type="TextureButton" parent="Panel" unique_id=1615946239]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 193.0
+offset_right = 127.0
+offset_bottom = 257.0
+localize_numeral_system = false
+texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
+
+[node name="TextureButton2" type="TextureButton" parent="Panel" unique_id=1819021290]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 65.0
+offset_right = 128.0
+offset_bottom = 129.0
+localize_numeral_system = false
+texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
+
+[node name="TextureButton3" type="TextureButton" parent="Panel" unique_id=1231038576]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 65.0
+offset_right = 256.0
+offset_bottom = 129.0
+localize_numeral_system = false
+texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
+
+[node name="TextureButton4" type="TextureButton" parent="Panel" unique_id=1526637642]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 193.0
+offset_right = 256.0
+offset_bottom = 257.0
+localize_numeral_system = false
+texture_normal = ExtResource("1_1ej6j")
+texture_pressed = ExtResource("2_bj1kf")
+stretch_mode = 0
+
+[node name="Label" type="Label" parent="Panel" unique_id=1751635078]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 203.0
+offset_top = 261.0
+offset_right = -77.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Hp Mob"
+
+[node name="Label2" type="Label" parent="Panel" unique_id=344353036]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 260.0
+offset_right = 138.0
+offset_bottom = 283.0
+text = "Mob Spawn"
+
+[node name="Label3" type="Label" parent="Panel" unique_id=734616386]
+layout_mode = 0
+offset_left = 203.0
+offset_top = 136.0
+offset_right = 243.0
+offset_bottom = 159.0
+text = "MANA"
+
+[node name="Label4" type="Label" parent="Panel" unique_id=407924252]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 136.0
+offset_right = 116.0
+offset_bottom = 159.0
+text = "HP"
+
+[node name="Label5" type="Label" parent="Panel" unique_id=1080995689]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 127.0
+offset_top = 20.0
+offset_right = -132.0
+offset_bottom = -257.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Прокачка"
