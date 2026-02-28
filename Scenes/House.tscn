@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cxgyadbppnyqj"]
+
+[ext_resource type="Script" uid="uid://3n2rtuo2ms8g" path="res://assets/scripts/House.cs" id="1_8od7v"]
+[ext_resource type="Texture2D" uid="uid://jblobjtc2gjo" path="res://assets/images/core.png" id="1_lc1oi"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lc1oi"]
+radius = 69.02898
+
+[node name="Area2D" type="Area2D" unique_id=1055782918]
+script = ExtResource("1_8od7v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1925405261]
+shape = SubResource("CircleShape2D_lc1oi")
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D" unique_id=978708378]
+texture = ExtResource("1_lc1oi")

@@ -1,4 +1,8 @@
 res://default_env.tres
-res://Scenes/UpgradePanel.tscn
+res://Scenes/TestColisionMoBS.tscn
+res://assets/scripts/Mob.cs
+res://assets/scripts/House.cs
 res://assets/scripts/ExitButtonScript.cs
 res://assets/scripts/WelcomeScript.cs
+res://Scenes/MainMenu.tscn
+res://Scenes/StartButton.cs

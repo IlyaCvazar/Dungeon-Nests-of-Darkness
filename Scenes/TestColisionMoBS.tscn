@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://f1amqgkwfvxc"]
+
+[ext_resource type="PackedScene" uid="uid://84bh1hjq2kvx" path="res://Scenes/Mob.tscn" id="1_ug78r"]
+[ext_resource type="PackedScene" uid="uid://cxgyadbppnyqj" path="res://Scenes/House.tscn" id="2_uaoax"]
+
+[node name="Node2D" type="Node2D" unique_id=2079552064]
+
+[node name="House" parent="." unique_id=1055782918 instance=ExtResource("2_uaoax")]
+position = Vector2(442, 287)
+
+[node name="Mob" parent="." unique_id=1667571827 instance=ExtResource("1_ug78r")]

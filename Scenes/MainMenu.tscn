@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cshd0qnsvun5u" path="res://assets/scripts/WelcomeScript.cs" id="1_853f1"]
 [ext_resource type="Script" uid="uid://buk6lcg12yam3" path="res://assets/scripts/ExitButtonScript.cs" id="1_tt5f1"]
+[ext_resource type="Script" uid="uid://p6li3hj2q02m" path="res://Scenes/StartButton.cs" id="2_df05h"]
 
 [sub_resource type="Theme" id="Theme_853f1"]
 
@@ -50,6 +51,7 @@ script = ExtResource("1_853f1")
 layout_mode = 2
 size_flags_vertical = 8
 text = "Start"
+script = ExtResource("2_df05h")
 
 [node name="SettingsButton" type="Button" parent="VBoxContainer" unique_id=1326585940]
 layout_mode = 2
@@ -65,5 +67,6 @@ wait_time = 0.05
 autostart = true
 
 [connection signal="mouse_entered" from="VBoxContainer/RichTextLabel" to="VBoxContainer/RichTextLabel" method="_on_mouse_entered"]
+[connection signal="pressed" from="VBoxContainer/StartButton" to="VBoxContainer/StartButton" method="_on_pressed"]
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="VBoxContainer/ExitButton" method="_on_pressed"]
 [connection signal="timeout" from="VBoxContainer/Timer" to="VBoxContainer/RichTextLabel" method="_on_timer_timeout"]
